@@ -1,0 +1,23 @@
+<paths>
+    <!-- Context.getFilesDir() + "/path/" -->
+    <files-path name="my_files" path="test/"/>
+
+    <!-- Context.getCacheDir() + "/path/" -->
+    <cache-path name="my_cache" path="test/"/>
+
+
+    <!-- Context.getExternalFilesDir(null) + "/path/" -->
+    <external-files-path name="external-files-path" path="test/"/>
+
+    <!-- Context.getExternalCacheDir() + "/path/" -->
+    <external-cache-path name="name" path="test/" />
+
+    <!-- Environment.getExternalStorageDirectory() + "/path/" -->
+    <external-path name="my_external_path" path="test/"/>
+
+    <!-- Environment.getExternalStorageDirectory() + "/path/" -->
+    <external-path name="files_root" path="Android/data/com.wyc.androiddemo/"/>
+
+    <!-- path设置为'.'时代表整个存储卡 Environment.getExternalStorageDirectory() + "/path/"   -->
+    <external-path name="external_storage_root" path="."/>
+</paths>
